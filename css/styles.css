@@ -321,6 +321,8 @@ img {
   border: none;
   border-radius: 0px 0px 4px 4px;
   background: var(--primary-background-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .team-item-title {
   margin-bottom: 10px;
@@ -363,12 +365,12 @@ img {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  fill: #ffffff;
+  color: #ffffff;
 }
 
 .team-soc-link:hover {
   background-color: #2196f3;
-  fill: #ffffff;
+  fill: currentColor;
 }
 
 /* ---------PORTFOLIO-MAIN---------- */
