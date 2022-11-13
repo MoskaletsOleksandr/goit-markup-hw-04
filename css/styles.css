@@ -191,6 +191,33 @@ img {
 .add-item:focus {
   color: var(--active-link-color);
 }
+
+.join {
+}
+.join-text {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.join-list {
+  display: flex;
+  gap: 10px;
+}
+.join-soc-item {
+}
+.join-soc-link {
+}
+.link {
+}
+.join-soc-icon {
+}
+
 /* ---------INDEX-MAIN---------- */
 /* ---------INDEX-MAIN---------- */
 /* ---------INDEX-MAIN---------- */
@@ -371,6 +398,39 @@ img {
 .team-soc-link:hover {
   background-color: #2196f3;
   fill: currentColor;
+}
+
+/* =--------CLIENTS--------- */
+
+.clients {
+}
+.clients-title {
+  margin-bottom: 50px;
+
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.clients-list {
+  display: flex;
+  gap: 30px;
+}
+.clients-item {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.clients-item-link {
+}
+.clients-item-icon {
 }
 
 /* ---------PORTFOLIO-MAIN---------- */
