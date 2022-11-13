@@ -153,6 +153,11 @@ img {
 
 /* ---------FOOTER---------- */
 
+.footer-container {
+  display: flex;
+  gap: 70px;
+  align-items: baseline;
+}
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -195,6 +200,7 @@ img {
 .join {
 }
 .join-text {
+  display: block;
   margin-bottom: 20px;
 
   font-weight: 700;
@@ -210,12 +216,27 @@ img {
   gap: 10px;
 }
 .join-soc-item {
+  width: 44px;
+  height: 44px;
 }
 .join-soc-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
 }
-.link {
-}
+
 .join-soc-icon {
+  fill: currentColor;
+}
+
+.join-soc-link:hover,
+.join-soc-link:focus {
+  background-color: #2196f3;
 }
 
 /* ---------INDEX-MAIN---------- */
@@ -392,11 +413,17 @@ img {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  color: #ffffff;
+  color: inherit;
 }
 
-.team-soc-link:hover {
+.team-soc-icon {
+  fill: currentColor;
+}
+
+.team-soc-link:hover,
+.team-soc-link:focus {
   background-color: #2196f3;
+  color: #ffffff;
   fill: currentColor;
 }
 
@@ -419,18 +446,24 @@ img {
   gap: 30px;
 }
 .clients-item {
+}
+.clients-item-link {
   display: flex;
-  width: 170px;
-  height: 92px;
   align-items: center;
   justify-content: center;
 
   border: 1px solid #afb1b8;
   border-radius: 4px;
-}
-.clients-item-link {
+  color: #afb1b8;
 }
 .clients-item-icon {
+  fill: currentColor;
+}
+
+.clients-item-link:hover,
+.clients-item-link:focus {
+  color: #2196f3;
+  border-color: #2196f3;
 }
 
 /* ---------PORTFOLIO-MAIN---------- */
