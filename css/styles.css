@@ -421,11 +421,11 @@ img {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  color: inherit;
+  color: #afb1b8;
 }
 
 .team-soc-icon {
-  fill: #afb1b8;
+  fill: currentColor;
 }
 
 .team-soc-link:hover,
