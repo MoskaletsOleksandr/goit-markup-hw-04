@@ -129,6 +129,7 @@ img {
   display: flex;
   padding: 32px 0;
 }
+
 .header-nav-link {
   color: var(--nav-link-color);
 }
@@ -147,12 +148,14 @@ img {
 
   color: var(--contact-link-color);
 }
+
 .header-nav-link:hover,
 .header-nav-link:focus,
 .header-contact-link:hover,
 .header-contact-link:focus {
   color: var(--active-link-color);
 }
+
 .header-contact-icon {
   fill: currentColor;
 }
@@ -223,14 +226,17 @@ img {
 
   color: #ffffff;
 }
+
 .join-list {
   display: flex;
   gap: 10px;
 }
+
 .join-soc-item {
   width: 44px;
   height: 44px;
 }
+
 .join-soc-link {
   display: flex;
   width: 100%;
@@ -269,6 +275,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .hero-title {
   margin: 0 auto 30px auto;
   width: 696px;
@@ -281,6 +288,7 @@ img {
   color: #ffffff;
   letter-spacing: 0.06em;
 }
+
 .hero-btn {
   margin: 0 auto;
   padding: 10px 32px;
@@ -336,6 +344,7 @@ img {
   text-transform: uppercase;
   color: var(--title-text-color);
 }
+
 .benefits-text {
   line-height: 1.71;
   color: var(--primary-text-color);
@@ -374,6 +383,7 @@ img {
 .team {
   background: var(--secondary-background-color);
 }
+
 .team-title {
   margin-bottom: 50px;
 
@@ -383,12 +393,14 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+
 .team-list {
   display: flex;
   gap: 30px;
 
   background: inherit;
 }
+
 .team-item {
   width: calc((100% - 90px) / 4);
 
@@ -402,6 +414,7 @@ img {
 .team-content-wrap {
   padding: 30px 32px;
 }
+
 .team-item-title {
   margin-bottom: 10px;
 
@@ -412,6 +425,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+
 .team-item-text {
   margin-bottom: 16px;
 
@@ -421,6 +435,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+
 /* .team-item-img {
 } */
 
@@ -477,11 +492,13 @@ img {
   display: flex;
   gap: 30px;
 }
+
 .clients-item {
   flex-basis: calc((100% - 150px) / 6);
   width: 170px;
   height: 92px;
 }
+
 .clients-item-link {
   display: flex;
   align-items: center;
@@ -493,6 +510,7 @@ img {
   border-radius: 4px;
   color: #afb1b8;
 }
+
 .clients-item-icon {
   fill: currentColor;
 }
@@ -577,6 +595,7 @@ img {
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
+
 .portfolio-item-text {
   font-size: 16px;
   line-height: 1.88;
